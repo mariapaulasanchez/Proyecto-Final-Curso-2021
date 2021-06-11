@@ -1,0 +1,72 @@
+body {
+  background-image: url("images/logo.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(255,250,255);
+  padding: 30px 10px;
+  margin: 20px;
+}
+
+
+#perfil {
+color:rgb(71,40,54);
+font-family:comic sans;
+font-size:16px;
+text-align: center;
+}
+
+h2{
+color: brown;
+font-family: comic sans;
+font-size: 14px
+}
+
+h1{
+text-align: center;
+}
+
+h2{
+text-align: center;
+}
+
+h3{
+color: brown;
+font-family: comic sans;
+font-size: 14px
+}
+
+a{
+	color:red;
+}
+
+ul{
+color: brown;
+font-family: comic sans;
+font-size: 14px;
+}
+
+@media (max-width: 960px) {
+ h1 {
+color: blue !important;
+}
+}
+
+@media (max-width: 720px) {
+ h1 {
+color: red !important;
+}
+}
+
+.card-white img{
+	width: 180px;
+	height: 180px;
+	margin:40px auto;
+	object-fit: cover;
+	object-position: top;
+	border-radius: 4px 	
+}
+
+.container{
+	width: 700px;
+	margin:40px auto;
+}
